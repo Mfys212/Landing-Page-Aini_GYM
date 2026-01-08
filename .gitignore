@@ -1,0 +1,23 @@
+############################
+# FRONTEND - NEXT.JS
+############################
+
+# Dependencies
+node_modules/
+
+# Next.js build & cache
+.next/
+.turbo/
+out/
+
+# Test coverage
+coverage/
+
+# Env files
+.env
+.env.*
+.env.local
+.env.*.local
+
+# Vercel
+.vercel
