@@ -30,7 +30,7 @@ export function Hero() {
           </p>
           
           <div className="flex flex-wrap gap-4">
-            <a href="https:wa.me/628995643121?text='Halo%20saya%20ingin%20tanya%20tempat%20gym'">
+            <a href="https://wa.me/628995643121?text='Halo%20saya%20ingin%20tanya%20tempat%20gym'">
             <button className="px-8 py-4 bg-gradient-to-r from-red-500 to-orange-500 text-white rounded-lg flex items-center gap-2 hover:shadow-lg hover:shadow-red-500/50 transition-all">
               Hubungi Kami
               <ArrowRight className="w-5 h-5" />
