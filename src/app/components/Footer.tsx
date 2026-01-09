@@ -1,13 +1,6 @@
 import { Dumbbell, MapPin, Phone, Mail } from 'lucide-react';
-import { useState } from 'react';
 
-interface NavbarProps {
-  activeSection: string;
-  setActiveSection: (section: string) => void;
-}
-
-export function Footer({ activeSection, setActiveSection }: NavbarProps) {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+export function Footer() {
   const currentYear = new Date().getFullYear();
 
   const footerLinks = {
@@ -20,12 +13,6 @@ export function Footer({ activeSection, setActiveSection }: NavbarProps) {
     ],
   };
 
-  const handleNavClick = (id: string) => {
-    setActiveSection(id);
-    const element = document.getElementById(id);
-    element?.scrollIntoView({ behavior: 'smooth' });
-    setMobileMenuOpen(false);
-  };
 
   return (
     <footer className="bg-neutral-950 border-t border-neutral-800">
@@ -75,6 +62,7 @@ export function Footer({ activeSection, setActiveSection }: NavbarProps) {
               </ul>
             </div>
           ))}
+          
         </div>
 
         {/* Bottom Bar */}
@@ -83,6 +71,25 @@ export function Footer({ activeSection, setActiveSection }: NavbarProps) {
             <p className="text-neutral-400">
               © {currentYear} Aini Gym. All rights reserved.
             </p>
+            {/* Website Developer */}
+            <div className="mt-1">
+              {/* <h3 className="text-white text-sm mb-3">h</h3> */}
+              <a
+                href="https://databits.co-id.id/"
+                // target="_blank"
+                // rel="noopener noreferrer"
+                className="inline-flex items-center space-x-2 hover:opacity-80 transition-opacity"
+                // aria-label="DataBits - Website Developer"
+              >
+                <img
+                  src="https://avatars.githubusercontent.com/u/167419822?s=200&v=4"
+                  alt="DataBits Logo"
+                  className="w-10 h-10 rounded-lg"
+                />
+                <span className="text-neutral-400 text-sm font-medium">Website created by: Databits</span>
+              </a>
+            </div>
+
             <div className="flex gap-6">
               <p className="text-neutral-400 hover:text-red-400 transition-colors">
                 Privacy Policy

@@ -3,23 +3,23 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 export function Gallery() {
   const images = [
     {
-      url: 'src/Images/latihan.jpeg',
+      url: 'Images/latihan.jpeg',
       caption: 'Latihan Bersama',
     },
     {
-      url: 'src/Images/pt.jpeg',
+      url: 'Images/pt.jpeg',
       caption: 'Sesi Training',
     },
     {
-      url: 'src/Images/coach.jpeg',
+      url: 'Images/coach.jpeg',
       caption: 'Member Latihan',
     },
     {
-      url: 'src/Images/latihan_bersama.jpeg',
+      url: 'Images/latihan_bersama.jpeg',
       caption: 'Latihan Bersama',
     },
     {
-      url: 'src/Images/kardio.jpeg',
+      url: 'Images/kardio.jpeg',
       caption: 'Kardio',
     },
   ];

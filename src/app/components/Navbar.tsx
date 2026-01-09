@@ -33,7 +33,7 @@ export function Navbar({ activeSection, setActiveSection }: NavbarProps) {
           <div className="flex items-center gap-2">
             <div className="w-40 h-20 bg-gradient-to-br flex items-center justify-center">
               <img
-                src="src/Images/logo.jpeg"
+                src="Images/logo.jpeg"
                 alt="Aini Gym"
                 className="w-full h-full object-contain"
               />

@@ -108,7 +108,7 @@ export function PTInfo() {
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden">
               <ImageWithFallback
-                src="src/Images/coach2.jpg"
+                src="Images/coach2.jpg"
                 alt="Personal Trainer Workout"
                 className="w-full h-full object-cover"
               />
@@ -153,7 +153,7 @@ export function PTInfo() {
               >
                 {/* <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-orange-500 rounded-full mb-4" /> */}
                 <img
-                  src="src/Images/ppcoach.jpeg"
+                  src="Images/ppcoach.jpeg"
                   alt={trainer.name}
                   className="w-20 h-20 rounded-full object-cover mb-4 border-2 border-red-500"
                 />
