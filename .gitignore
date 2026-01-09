@@ -21,3 +21,6 @@ coverage/
 
 # Vercel
 .vercel
+
+#build
+dist/
